@@ -1,4 +1,4 @@
-FlowRouter.route("/", {
+FlowRouter.route('/', {
     name: 'Home',
     subscriptions(params) {
 
@@ -8,8 +8,8 @@ FlowRouter.route("/", {
     }
 });
 
-FlowRouter.route("/login", {
-    name: "Login",
+FlowRouter.route('/login', {
+    name: 'Login',
     subscriptions(params) {
 
     },
